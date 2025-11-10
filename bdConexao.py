@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 # --- Configurações ---
 usuario = "postgres"
-senha = "101520"
+senha = "sua_senha"
 host = "localhost"
 porta = "5432"
 banco = "CursoTeologia"
