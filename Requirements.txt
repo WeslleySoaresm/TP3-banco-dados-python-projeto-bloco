@@ -1,0 +1,16 @@
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.8+
+- PostgreSQL installed and running locally
+- Database `CursoTeologia` with populated tables
+- Python libraries:
+  - `sqlalchemy`
+  - `psycopg2-binary`
+
+Install dependencies with:
+
+```bash
+pip install sqlalchemy psycopg2-binary
