@@ -1,6 +1,5 @@
 
-
-## 🇧🇷 README.md — Projeto Python + PostgreSQL com SQLAlchemy
+---
 
 ```markdown
 # 📚 Projeto: Integração Python + PostgreSQL com SQLAlchemy
@@ -27,7 +26,6 @@ Este projeto demonstra como conectar uma aplicação Python a um banco de dados 
 
 ```
 TP3-banco-dados-python-projeto-bloco/
-│
 ├── bdConexao.py         # Script principal com conexão, consultas e impressão
 ├── README.md            # Documentação do projeto
 └── requirements.txt     # Dependências do projeto (opcional)
@@ -55,24 +53,27 @@ pip install sqlalchemy psycopg2-binary
 ## ⚙️ Como executar
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd TP3-banco-dados-python-projeto-bloco
-   ```
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd TP3-banco-dados-python-projeto-bloco
+```
 
 2. Edite o arquivo `bdConexao.py` com suas credenciais de acesso ao PostgreSQL:
-   ```python
-   usuario = "postgres"
-   senha = "sua_senha"
-   host = "localhost"
-   porta = "5432"
-   banco = "CursoTeologia"
-   ```
+
+```python
+usuario = "postgres"
+senha = "sua_senha"
+host = "localhost"
+porta = "5432"
+banco = "CursoTeologia"
+```
 
 3. Execute o script:
-   ```bash
-   python bdConexao.py
-   ```
+
+```bash
+python bdConexao.py
+```
 
 ---
 
@@ -82,10 +83,8 @@ Desenvolvido por **Weslley Soares** como parte do projeto de bloco de Banco de D
 
 ---
 
-## 🇺🇸 README.md — Python + PostgreSQL Integration with SQLAlchemy
 
-```markdown
-# 📚 Project: Python + PostgreSQL Integration with SQLAlchemy
+# 🇺🇸 Project: Python + PostgreSQL Integration with SQLAlchemy
 
 This project demonstrates how to connect a Python application to a PostgreSQL database using SQLAlchemy, run SQL queries with different types of JOINs, and return results in two formats: dictionaries and lists.
 
@@ -109,7 +108,6 @@ This project demonstrates how to connect a Python application to a PostgreSQL da
 
 ```
 TP3-banco-dados-python-projeto-bloco/
-│
 ├── bdConexao.py         # Main script with connection, queries, and output
 ├── README.md            # Project documentation
 └── requirements.txt     # Project dependencies (optional)
@@ -137,24 +135,27 @@ pip install sqlalchemy psycopg2-binary
 ## ⚙️ How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd TP3-banco-dados-python-projeto-bloco
-   ```
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd TP3-banco-dados-python-projeto-bloco
+```
 
 2. Edit `bdConexao.py` with your PostgreSQL credentials:
-   ```python
-   usuario = "postgres"
-   senha = "your_password"
-   host = "localhost"
-   porta = "5432"
-   banco = "CursoTeologia"
-   ```
+
+```python
+usuario = "postgres"
+senha = "your_password"
+host = "localhost"
+porta = "5432"
+banco = "CursoTeologia"
+```
 
 3. Run the script:
-   ```bash
-   python bdConexao.py
-   ```
+
+```bash
+python bdConexao.py
+```
 
 ---
 
